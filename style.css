@@ -1,0 +1,61 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+@media(min-width:500px) {
+    body {
+
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex: 50%;
+            align-items: self-end;
+            text-align: center;
+            flex:wrap;
+
+
+        }
+
+        .image {
+
+            width: 400px;
+            height: 100vh;
+
+        }
+
+        .image2 {
+            width: 100px;
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        form {
+            display: flex;
+            flex: 50%;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            margin: 200px;
+            padding: 20px;
+        }
+
+        .input-container {
+            display: block;
+            align-items: first baseline;
+            margin: 0px;
+            width: 400px;
+            height: 100vh;
+            padding: 1px;
+            text-align: center;
+
+        .button-class {
+            width: 200px;
+        }
+
+        }
+    }
+}
